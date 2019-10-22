@@ -48,4 +48,5 @@ def find_predios():
     find_response = db_find("predios")
     return(find_response)
 
-app.run(port=5000, debug=True)
+app.run()
+#app.run(port=5000, debug=True)
